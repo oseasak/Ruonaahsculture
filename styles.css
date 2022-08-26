@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;  
+}
+
+body {   
+  height: 100vh;
+  background: radial-gradient(circle, purple, white);
+  color: #f5f6f7;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  padding-top: 2em;
+}
+
+h1 {
+  color: white; 
+  text-shadow: 3px 3px purple;
+  font-size: 50px
+}
+
+p {
+  font-style: italic;
+  padding-bottom: 1.5em;
+}
+
+form {
+  width: 60%;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  background-color: hsla(186, 77%, 17%, 0.384);
+  border-radius: 10px;
+}
+
+  label {
+      display: block;
+      margin: 0.5rem 0;
+  }
+  input, textarea, select {
+      margin: 5px 0 0 0;
+      width: 100%;  
+  }
+  input, textarea {
+    background-color: white;
+    border: 1px solid white;
+    color: grey;
+  }
+  .inline {
+    width: unset;
+  }
+  input, select {
+    border-radius: 3.5px;
+  }
+  input[type="text"]{
+  height: 3em;
+  }
+  input[type="email"]{
+  height: 3em;
+  }
+  input[type="number"]{
+  height: 3em;
+  }
+  select {
+    height: 3em;
+  }
+  
+  #submit {  
+    border:none;
+    background-color: white;
+    padding: 6px;
+    font-weight: 900;
+    border-radius: 5px;
+    width: 90px;
+  }
+  
+  #btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Button's 3D animation */
+  .btn {
+    box-shadow: 7px 7px black;
+  }
+
+  .btn:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+  }  

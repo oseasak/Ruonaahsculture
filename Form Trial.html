@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>Ruonaahsculture</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="responsiveness.css" />
+  </head>
+  <body class="container">
+      <div class="container">
+        <div class="container">
+          <header>        
+            <h1><strong>Ruonaahsculture'</strong></h1>
+            <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+          </header>
+        </div>
+        <div class="container">
+          <form id="survey-form">
+            <div class="container">
+              <label for="name">First name:</label>
+              <input id="name" type="text" placeholder="Enter your first name" required />
+              <label for="name">Other name:</label>
+              <input id="name" type="text" placeholder="Enter your other name" />
+              <label for="name">Last name:</label>
+              <input id="name" type="text" placeholder="Enter your last name" required />
+              <label for="email">Email:</label>
+              <input id="email" type="email" name="email" placeholder="Enter your email" required />
+              <label for="Age">Age(optional):</label>
+              <input id="Age" type="number" name="age" min="15" max="70" placeholder="Age" required />
+              <label for="dropdown">Which option best describes your current role?
+                <select id="dropdown">
+                  <option value="">Select current role</option>
+                  <option value="1">Student</option>
+                  <option value="2">Full time Job</option>
+                  <option value="3">Full time Learner</option>
+                  <option value="4">Prefer not to Say</option>
+                  <option value="5">Other</option>
+                </select>
+              </label>
+            </div>
+            <div class="container">
+              <label for="checkbox">Would you recommend Ruonaahsculture to a friend?</label>
+              <input id="checkbox" value="6" type="radio" name="account-type" class="inline" /> Definitely</label>
+              <label><input value="7" type="radio" name="account-type" class="inline" /> Maybe</label>
+              <label><input value="8" type="radio" name="account-type" class="inline" /> Not Sure
+            </div>
+            <div class="container">
+              <label for="dropdown2">What is your favourite feature of Ruonaahsculture?
+                <select type="feature" id="dropdown2">
+                  <option value="">Select an option</option>
+                  <option value="1">Tweets</option>
+                  <option value="2">Write-ups</option>
+                  <option value="3">Blog</option>
+                  <option value="4">Lifestyle</option>
+                </select>
+              </label>
+            </div>
+            <div class="container">
+              <label>What would you like to see improved? (Check all that apply)
+                <label><input value="9" type="checkbox" class="inline" name="improvement" required />Website</label>
+                <label><input value="10" type="checkbox" class="inline" name="improvement" required />Instagram</label>
+                <label><input value="11" type="checkbox" class="inline" name="improvement" required />Blog</label>
+                <label><input value="12" type="checkbox" class="inline" name="improvement" required />Twitter</label>
+              </label>
+            </div>
+            <div class="container">
+              <label>Any comment or suggestions?
+                <textarea name="comment" rows="7" cols="35" placeholder="Enter your comment here..."></textarea>
+              </label>
+            </div>
+            <div id="btn">
+              <button class="btn" for="survey-form" id="submit" type="submit" value="Submit"/>Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </body>
+  </html>

@@ -1,0 +1,12 @@
+/* Responsiveness */
+@media (max-width: 1000px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 670px) {
+    form {
+        width: 80%;
+    }
+}
